@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Webapi:etc/webapi.xsd">
+    <route url="/V1/ghost-inspector/Aheadworks_Giftcard/AddGiftcardToBasket" method="GET">
+        <service class="Zero1\GhostInspectorAheadworksGiftcard\Api\AddGiftcardToBasketInterface" method="getConfiguration"/>
+        <resources>
+            <resource ref="Zero1_GhostInspector::resource"/>
+        </resources>
+    </route>
+</routes>
